@@ -1,5 +1,4 @@
 # qlab-scripts
-automation scripts for qlab 4 and 5
+collection of my automation scripts for qlab 4 (5 untested)
 
-To-do:
-Make custom importer for this folder
+zOld is NOT TESTED, DO NOT USE
