@@ -134,17 +134,17 @@ Feel free to use for your projects, and let me know if you have any suggestions 
 ### override disable.applescript
 -default hotkey ⇧⌃O
 
--disables all show control outputs (MIDI, Network, Timecode)
+-disables all show control inputs AND outputs (MIDI, Network, Timecode)
 
 ### override enable.applescript
 -default hotkey ⇧⌃⌥O
 
--enables all show control outputs (MIDI, Network, Timecode)
+-enables all show control inputs AND outputs (MIDI, Network, Timecode)
 
 ### override toggle.applescript
 -default hotkey ⇧O
 
--toggles all show control outputs 
+-toggles all show control inputs AND outputs (MIDI, Network, Timecode)
 
 ### set MIDI values.applescript
 -default hotkey ^M
