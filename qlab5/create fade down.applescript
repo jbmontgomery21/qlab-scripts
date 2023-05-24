@@ -1,5 +1,5 @@
 set userDuration to 5
-set customName to false
+set customName to true
 
 tell application id "com.figure53.QLab.5" to tell front workspace
 	set originalCue to last item of (selected as list)

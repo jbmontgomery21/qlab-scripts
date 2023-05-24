@@ -1,5 +1,5 @@
 set userDuration to 5
-set customName to false
+set customName to true
 
 tell application id "com.figure53.QLab.4" to tell front workspace
 	set originalCue to last item of (selected as list)
@@ -12,7 +12,7 @@ tell application id "com.figure53.QLab.4" to tell front workspace
 		newCue setLevel row 0 column 0 db 10
 		set cue target of newCue to originalCue
 		if customName then
-			set q name of newCue to "(" & q name of originalCue & " rf/d)"
+			set q name of newCue to "(" & q name of originalCue & " rf/u)"
 		end if
 	else if originalCueType is "Fade" then
 		set originalCueTarget to cue target of originalCue
@@ -23,7 +23,7 @@ tell application id "com.figure53.QLab.4" to tell front workspace
 		set fade mode of newCue to relative
 		set cue target of newCue to originalCueTarget
 		if customName then
-			set q name of newCue to "(" & q name of originalCueTarget & " rf/d)"
+			set q name of newCue to "(" & q name of originalCueTarget & " rf/u)"
 		end if
 	end if
 end tell

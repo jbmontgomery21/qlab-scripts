@@ -1,5 +1,5 @@
 set userDuration to 5
-set customName to false
+set customName to true
 tell application id "com.figure53.QLab.4" to tell front workspace
 	set originalCue to last item of (selected as list)
 	-- display dialog q display name of originalCue as text
@@ -17,7 +17,7 @@ tell application id "com.figure53.QLab.4" to tell front workspace
 			set stop target when done of newCue to false
 		end if
 		if customName then
-			set q name of newCue to "(" & q display name of originalCue & " f/o)"
+			set q name of newCue to "(" & q display name of originalCue & " f/i)"
 		end if
 	end if
 end tell
