@@ -5,6 +5,8 @@ Not all of these scripts are mine, attribution is given at the top of the script
 
 Feel free to use for your projects, and let me know if you have any suggestions or find any bugs
 
+## (de)script(ion)s
+
 ### add gotos.applescript
 -default hotkey ⇧⌃⌥G
 
