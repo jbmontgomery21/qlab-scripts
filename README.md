@@ -30,6 +30,11 @@ Feel free to use for your projects, and let me know if you have any suggestions 
 
 -useful for ex. putting an "x" in front of every cue that was cut, or "v" in front of every cue triggered by video
 
+### color picker.applescript
+-default hotkey ⇧C
+
+-will bring up a menu with all color options and apply it to the selected cue
+
 ### create fade down.applescript
 -default hotkey ^D
 
