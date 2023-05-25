@@ -1,3 +1,4 @@
+-- @hotkey ^M
 tell application id "com.figure53.QLab.5" to tell front workspace
 	
 	set userMIDINote to display dialog "MIDI Note?" default answer "" buttons {"Cancel", "Continue"} default button "Continue"

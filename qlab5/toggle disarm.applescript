@@ -1,3 +1,4 @@
+-- @hotkey ^D
 tell application id "com.figure53.QLab.5" to tell front workspace
 	set selectedCues to (selected as list)
 	if (count selectedCues) is 0 then -- If no cues are selected arm/disarm the current cue list

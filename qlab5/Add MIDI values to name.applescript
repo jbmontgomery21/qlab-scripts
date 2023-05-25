@@ -1,3 +1,4 @@
+-- @hotkey ^N
 tell application id "com.figure53.QLab.5" to tell front workspace
 	set thisCue to last item of (selected as list)
 	set theNote to midi byte one of thisCue

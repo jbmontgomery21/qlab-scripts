@@ -68,6 +68,9 @@ repeat with eachScript in scriptFiles
 		else if eachLine contains "@separateprocess" then
 			set eachScriptSeparateProcess to trimLine(eachLine, "-- @separateprocess ", 0)
 			log "Separate Process: " & eachScriptSeparateProcess
+		else if eachLine contains "@hotkey" then
+			set eachScriptHotkey to trimLine(eachLine, "-- @hotkey", 0)
+			log "Hotkey: " & eachScriptHotkey
 		end if
 		
 		-- Get script source
@@ -121,6 +124,11 @@ repeat with eachScript in scriptFiles
 			end try
 			set notes of scriptCue to cueNote
 		end try
+		
+		-- Set cue number
+		try
+			set q number of scriptCue to eachScriptHotkey
+			end try
 		
 		-- Set script source
 		
