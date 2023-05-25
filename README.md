@@ -163,7 +163,3 @@ Feel free to use for your projects, and let me know if you have any suggestions 
 -default hotkey ⌃⌥D
 
 -toggles the "armed" status of the selected cue
-
-
-
-# zOld is NOT TESTED, DO NOT USE
