@@ -1,3 +1,4 @@
+-- @hotkey ^F
 set userDuration to 5
 set customName to true
 tell application id "com.figure53.QLab.4" to tell front workspace

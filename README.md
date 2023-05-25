@@ -160,7 +160,7 @@ Feel free to use for your projects, and let me know if you have any suggestions 
 -default format: (#note.#velocity) [cue name]
 
 ### toggle disarm.applescript
--default hotkey ^D
+-default hotkey ⌃⌥D
 
 -toggles the "armed" status of the selected cue
 

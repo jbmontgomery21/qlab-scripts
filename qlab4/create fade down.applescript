@@ -1,3 +1,4 @@
+-- @hotkey ^D
 set userDuration to 5
 set customName to true
 

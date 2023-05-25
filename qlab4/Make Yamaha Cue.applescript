@@ -1,3 +1,4 @@
+-- @hotkey ^Y
 set userNumPrefix to "*"
 set userNamePrefix to "Yamaha Scene"
 set userColor to "Purple"
