@@ -151,6 +151,13 @@ Feel free to use for your projects, and let me know if you have any suggestions 
 
 -toggles all show control inputs AND outputs (MIDI, Network, Timecode)
 
+### set mono crosspoints.applescript
+-default hotkey ⌥M
+
+-sets the crosspoints of the selected cues to 0 for all outputs for the first row (in case the template has different crosspoints for stereo files)
+
+-default max outputs: 24 
+
 ### set MIDI values.applescript
 -default hotkey ^M
 
