@@ -30,6 +30,13 @@ Feel free to use for your projects, and let me know if you have any suggestions 
 
 -useful for ex. putting an "x" in front of every cue that was cut, or "v" in front of every cue triggered by video
 
+### cleanup disarms.applescript
+-default hotkey ^⇧C
+
+-will move all cues in selection that are currently disarmed to a user-specified "cut cues" list and remove all cue numbers and triggers
+
+-default cue list: "cut cues"
+
 ### color picker.applescript
 -default hotkey ⇧C
 
