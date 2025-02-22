@@ -14,7 +14,7 @@ Feel free to use for your projects, and let me know if you have any suggestions 
 
 -useful for a show where cues are triggered by midi/osc and the playhead doesn't follow
 
-### add timecode trigger.applescript
+### add LX trigger.applescript
 -default hotkey ^L
 
 -ask user for LX cue number and sets q name and number to match. default color to CYAN
