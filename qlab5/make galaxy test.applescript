@@ -1,7 +1,7 @@
 tell application id "com.figure53.QLab.5" to tell front workspace
 	set runner to 1 #unmute tracker
 	set trailer to 0 #mute tracker
-	set delayTime to 5 #can change to desired delay between mutes/unmutes. make 0 
+	set delayTime to 5 #can change to desired delay between mutes/unmutes. make 0 if triggering manually
 	set firstPatch to 1 #first galaxy patch number
 	set lastPatch to 2 #last galaxy patch number
 	set patchNum to firstPatch
