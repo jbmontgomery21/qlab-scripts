@@ -14,12 +14,30 @@ Feel free to use for your projects, and let me know if you have any suggestions 
 
 -useful for a show where cues are triggered by midi/osc and the playhead doesn't follow
 
+### add timecode trigger.applescript
+-default hotkey ^L
+
+-ask user for LX cue number and sets q name and number to match. default color to CYAN
+
+-default format: (###) [cue name]
+
+-scans for first ")" to strip out in case this has already been used. Beware if parenthesis are part of your naming convention
+
 ### add MIDI values to name.applescript
 -default hotkey ^N
 
 -will take the midi trigger values currently set and add them to the name of the cue
 
 -default format: (#note.#velocity) [cue name]
+
+-scans for first ")" to strip out in case this has already been used. Beware if parenthesis are part of your naming convention
+
+### add timecode trigger.applescript
+-default hotkey ^T
+
+-ask user for timecode hours, minutes, seconds, and frames set it as timecode trigger point. default color to RED
+
+-default format: (hh:mm:ss:ff) [cue name]
 
 -scans for first ")" to strip out in case this has already been used. Beware if parenthesis are part of your naming convention
 
