@@ -200,3 +200,23 @@ Feel free to use for your projects, and let me know if you have any suggestions 
 -default hotkey ⌃⌥D
 
 -toggles the "armed" status of the selected cue
+
+### whoami chooser
+-no default hotkey
+
+-looks for a text file on the desktop named "whoami.txt" and scans contens for either "main" or "backup"
+
+-sets overrides accordingly. looks for a cue with # "status" to change the name of reflecting current status (main/backup, muted/unmuted)
+
+-credit to the QLab Cookbook - more details available here https://qlab.app/cookbook/main-or-backup/
+
+### whoami switcher
+-no default hotkey
+
+-used in confunction with the above script to switch the overrides of the main and backup workspace
+
+-sets overrides accordingly. looks for a cue with # "status" to change the name of reflecting current status (main/backup, muted/unmuted)
+
+-credit to the QLab Cookbook - more details available here https://qlab.app/cookbook/main-or-backup/
+
+
