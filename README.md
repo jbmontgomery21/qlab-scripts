@@ -19,7 +19,7 @@ NOTE: support for QLab 4 is mostly deprecated. Most of it should still work but 
 ### add LX trigger.applescript
 -default hotkey ^L
 
--ask user for LX cue number and sets q name and number to match. default color to CYAN
+-ask user for LX cue number and sets q name and number to match. sets color to the color of this script cue
 
 -default format: (###) [cue name]
 
@@ -37,7 +37,7 @@ NOTE: support for QLab 4 is mostly deprecated. Most of it should still work but 
 ### add timecode trigger.applescript
 -default hotkey ^T
 
--ask user for timecode hours, minutes, seconds, and frames set it as timecode trigger point. default color to RED
+-ask user for timecode hours, minutes, seconds, and frames set it as timecode trigger point. sets color to the color of this script cue
 
 -default format: (hh:mm:ss:ff) [cue name]
 

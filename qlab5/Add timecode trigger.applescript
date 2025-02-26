@@ -1,4 +1,3 @@
--- @hotkey ^T
 tell application id "com.figure53.QLab.5" to tell front workspace
 	
 	set userHour to display dialog "Timecode hour?" default answer "" buttons {"Cancel", "Continue"} default button "Continue"
@@ -36,7 +35,9 @@ tell application id "com.figure53.QLab.5" to tell front workspace
 	
 	set q name of thisCue to modName & (q name of thisCue)
 	set q number of thisCue to modName
-	set q color of thisCue to "red"
+	
+	set myself to last item of (cues whose running is true and q type is "script")
+	set q color of thisCue to q color of myself
 	
 	set timecode trigger of thisCue to enabled
 	

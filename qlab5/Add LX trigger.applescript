@@ -1,4 +1,3 @@
--- @hotkey ^L
 tell application id "com.figure53.QLab.5" to tell front workspace
 	
 	set userNum to display dialog "LX Trigger?" default answer "" buttons {"Cancel", "Continue"} default button "Continue"
@@ -16,6 +15,8 @@ tell application id "com.figure53.QLab.5" to tell front workspace
 	
 	set q name of thisCue to modName & (q name of thisCue)
 	set q number of thisCue to theNum
-	set q color of thisCue to "cyan"
+	
+	set myself to last item of (cues whose running is true and q type is "script")
+	set q color of thisCue to q color of myself
 	
 end tell
