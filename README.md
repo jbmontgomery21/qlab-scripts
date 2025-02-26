@@ -5,6 +5,8 @@ Not all of these scripts are mine, attribution is given at the top of the script
 
 Feel free to use for your projects, and let me know if you have any suggestions or find any bugs
 
+NOTE: support for QLab 4 is mostly deprecated. Most of it should still work but not many new scripts will be ported backwards.
+
 ## (de)script(ion)s
 
 ### add gotos.applescript
