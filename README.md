@@ -50,6 +50,17 @@ NOTE: support for QLab 4 is mostly deprecated. Most of it should still work but 
 
 -useful for ex. putting an "x" in front of every cue that was cut, or "v" in front of every cue triggered by video
 
+### bulk MIDI renumber
+- default hotkey ⌃⌥M
+
+- will apply selected values as new MIDI triggers for all selected cues and change name to reflect this
+
+- similar to "set MIDI values"
+
+- 4 options for these scripts. set triggers by hardcoded values in the header of the script, or with a dialogue box.
+
+- similarly, set of options that ONLY do CC for simplicity, or that has a menu option for note_on, note_off, control_change, and program_change
+
 ### cleanup disarms.applescript
 -default hotkey ^⇧C
 
