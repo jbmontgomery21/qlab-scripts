@@ -85,7 +85,7 @@ repeat with eachScript in scriptFiles
 		
 	end repeat
 	
-	tell application id "com.figure53.Qlab.4" to tell front workspace
+	tell application id "com.figure53.Qlab.5" to tell front workspace
 		
 		-- Get cue to write, or create cue
 		
@@ -150,7 +150,7 @@ repeat with eachScript in scriptFiles
 		
 		-- Get current version of Qlab
 		
-		set currentQlabVersion to version of application id "com.figure53.Qlab.4"
+		set currentQlabVersion to version of application id "com.figure53.Qlab.5"
 		log "Current Qlab Version: " & currentQlabVersion
 		
 		-- Get current version of MacOS
