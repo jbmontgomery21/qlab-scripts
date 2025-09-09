@@ -17,8 +17,7 @@ tell application id "com.figure53.QLab.5" to tell front workspace
 		try
 			set startNote to (text returned of userNote) as integer
 			-- This test should be unnecessary, just exiting the loop should be fine.
-			if class of startNote is integer then Â
-				exit repeat
+			if class of startNote is integer then exit repeat
 		on error m number n from o partial result r to t
 			set unableToConvertToInteger to n is -1700 and o is text returned of userNote and t is integer -- e.g. "asdf"
 			set numericResultTooLarge to n is -2702 and t is integer -- e.g. anything larger than 2^29-1
@@ -34,8 +33,7 @@ tell application id "com.figure53.QLab.5" to tell front workspace
 			try
 				set startVel to (text returned of userVel) as integer
 				-- This test should be unnecessary, just exiting the loop should be fine.
-				if class of startVel is integer then Â
-					exit repeat
+				if class of startVel is integer then exit repeat
 			on error m number n from o partial result r to t
 				set unableToConvertToInteger to n is -1700 and o is text returned of userVel and t is integer -- e.g. "asdf"
 				set numericResultTooLarge to n is -2702 and t is integer -- e.g. anything larger than 2^29-1
@@ -51,8 +49,7 @@ tell application id "com.figure53.QLab.5" to tell front workspace
 		try
 			set startInc to (text returned of userInc) as integer
 			-- This test should be unnecessary, just exiting the loop should be fine.
-			if class of startInc is integer then Â
-				exit repeat
+			if class of startInc is integer then exit repeat
 		on error m number n from o partial result r to t
 			set unableToConvertToInteger to n is -1700 and o is text returned of userInc and t is integer -- e.g. "asdf"
 			set numericResultTooLarge to n is -2702 and t is integer -- e.g. anything larger than 2^29-1
